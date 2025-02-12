@@ -1,0 +1,38 @@
+body {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 30px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+}
+
+.color-box {
+    width: 200px;
+    height: 200px;
+    border: 3px solid white;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.form-control {
+    background: rgba(255, 255, 255, 0.3);
+    border: none;
+    color: white;
+    text-align: center;
+}
+
+.form-control:focus {
+    background: rgba(255, 255, 255, 0.5);
+    color: black;
+}
